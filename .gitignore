@@ -1,3 +1,9 @@
+# other files
+keras_models_logs
+keras_savedmodels
+1502.03167.pdf
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
