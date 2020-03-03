@@ -1,0 +1,18 @@
+Errors:
+
+### Using tf.cond()
+    
+    1)."""ValueError: Lengths of branch outputs of cond must match.
+          len(graphs[0].outputs): 1
+          len(graphs[1].outputs): 0
+       """
+    
+    2). """ValueError: Tensor moments/mean:0 in true_fn is accessed from false_fn."""
+
+### model.stateful = True
+
+    """AttributeError: Can't set the attribute "stateful", likely because it conflicts with an existing read-only @property of the object. Please choose a different name."""
+    
+### layer(units, name, dtype, stateful)(inputs)
+
+    """TypeError: ('Keyword argument not understood:', 'stateful')"""
