@@ -26,3 +26,26 @@ Paper: Batch Normalization: Accelerating Deep Network Training by Reducing Inter
 	
 	- 10 epochs only. train acc: 98.84%, val acc: 97.02%, test acc: 97.11%
 
+5. BatchNormCustom_experimental-v1:
+	
+	- writing and experimenting with custom code for calculating Batch Normalization as implemented in the paper
+	
+	- the calculation does not implement the *momemtum* factor such as the one defined in the documentation
+	
+	- comparing the test results against the method using *momentum*
+	
+	- running for 2 epochs; accuracy ~ 90%
+	
+6. BatchNormCustom_final-v1:
+
+	- Cleaned up code of BatchNormCustom_experimental-v1
+	
+	- same architecture and parameters as in BatchNorm_experimental-v1
+	
+	- 10 epochs 
+	
+	- Custom code without *momentum* - train acc: 94.95%, val acc: 94.70%, test acc: 94.59%
+	
+	- Custom code with *momentum* - train acc: 93.87%, val acc: 94.17%, test acc: 93.71%
+
+	 
